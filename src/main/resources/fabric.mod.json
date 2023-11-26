@@ -22,13 +22,6 @@
 			"rs.onako2.woodster.WoodsterClient"
 		]
 	},
-	"mixins": [
-		"woodster.mixins.json",
-		{
-			"config": "woodster.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.14.24",
 		"minecraft": "~1.20.2",
