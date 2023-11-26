@@ -40,6 +40,8 @@ public class Woodster implements ModInitializer {
 		LOGGER.info("Hello Quilt world!");
 
 		// Chiseled Bookshelfs
+
+		// blocks
 		Registry.register(Registries.BLOCK, new Identifier("woodster", "spruce_chiseled_bookshelf"),
 				SPRUCE_CHISELED_BOOKSHELF);
 		Registry.register(Registries.BLOCK, new Identifier("woodster", "birch_chiseled_bookshelf"),
@@ -61,9 +63,24 @@ public class Woodster implements ModInitializer {
 		Registry.register(Registries.BLOCK, new Identifier("woodster", "warped_chiseled_bookshelf"),
 				WARPED_CHISELED_BOOKSHELF);
 
+		// items
 		Registry.register(Registries.ITEM, new Identifier("woodster", "spruce_chiseled_bookshelf"),
 				new BlockItem(SPRUCE_CHISELED_BOOKSHELF, new FabricItemSettings()));
 		Registry.register(Registries.ITEM, new Identifier("woodster", "birch_chiseled_bookshelf"),
 				new BlockItem(BIRCH_CHISELED_BOOKSHELF, new FabricItemSettings()));
+		Registry.register(Registries.ITEM, new Identifier("woodster", "jungle_chiseled_bookshelf"),
+				new BlockItem(JUNGLE_CHISELED_BOOKSHELF, new FabricItemSettings()));
+		Registry.register(Registries.ITEM, new Identifier("woodster", "acacia_chiseled_bookshelf"),
+				new BlockItem(ACACIA_CHISELED_BOOKSHELF, new FabricItemSettings()));
+		Registry.register(Registries.ITEM, new Identifier("woodster", "dark_oak_chiseled_bookshelf"),
+				new BlockItem(DARK_OAK_CHISELED_BOOKSHELF, new FabricItemSettings()));
+		Registry.register(Registries.ITEM, new Identifier("woodster", "mangrove_chiseled_bookshelf"),
+				new BlockItem(CHERRY_CHISELED_BOOKSHELF, new FabricItemSettings()));
+		Registry.register(Registries.ITEM, new Identifier("woodster", "cherry_chiseled_bookshelf"),
+				new BlockItem(CHERRY_CHISELED_BOOKSHELF, new FabricItemSettings()));
+		Registry.register(Registries.ITEM, new Identifier("woodster", "bamboo_chiseled_bookshelf"),
+				new BlockItem(BAMBOO_CHISELED_BOOKSHELF, new FabricItemSettings()));
+		Registry.register(Registries.ITEM, new Identifier("woodster", "crimson_chiseled_bookshelf"),
+				new BlockItem(CRIMSON_CHISELED_BOOKSHELF, new FabricItemSettings()));
 	}
 }
